@@ -16,7 +16,7 @@ $(function(){
   <ul class="pagination">
     <li <c:if test="${!page.hasPreviouse}">class="disabled"</c:if>>
       <a  href="?start=0${page.param}" aria-label="Previous" >
-        <span aria-hidden="true">&laquo;</span>
+        <span aria-hidden="true">&raquo;</span>
       </a>
     </li>
 
